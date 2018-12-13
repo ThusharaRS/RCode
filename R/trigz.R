@@ -7,10 +7,14 @@
 
 
 
-trigo <- function(x,MY_WL1){
+trigo <- function(MY_WL1){
  
  MY_WL<-unlist(MY_WL1)
 
- return(sin(x) + cos(x))
+ WL <- matrix(c(MY_WL
+  ),
+  ncol = 2, byrow = TRUE)
+  
+  return WL
 
 }
