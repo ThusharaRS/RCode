@@ -13,7 +13,6 @@ trigo <- function(MY_WL1){
 
  WL <- matrix(c(MY_WL),ncol = 2, byrow = TRUE)
   
- print(WL)
  return WL
 
 }
